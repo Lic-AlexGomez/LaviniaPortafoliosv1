@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavinia Maria Popa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="homePageAbout">
+    <div>
+      <div class="mainabout">
+        <div class="nav-main-about">
+          <a href="/">Home</a>
+          <a href="portafolios">Portfolio</a>
+          <a href="experience">Experience</a>
+          <a href="skills">Skills</a>
+        </div>
+
+        <h1 class="tituloAbout">ABOUT ME</h1>
+
+        <div class="center">
+          <p class="parrafoAbout space">
+            I am a dedicated Pattern Maker and Apparel Professional with over 5
+            years of experience in the textile and fashion industry,
+            specializing in pattern making, garment construction, and technical
+            design. 
+            <br /> <br />
+            My expertise lies in creating precise and innovative patterns,
+            utilizing advanced CAD tools, and developing 3D apparel simulations.
+            I have a strong foundation in both fashion design and protective
+            clothing, blending creativity with functionality to deliver
+            high-quality results.
+
+            <span id="secondAboutP" class=" secondAboutP space-b">
+               <br /> <br />
+                My journey began in the fashion industry as a freelance graphic
+                designer. After obtaining a bachelor's degree in graphic design, I
+                moved on to pursue a career in pattern making and garment
+                construction. I have worked on various projects, from designing
+                simple patterns to creating intricate textile designs. My passion
+                for pattern making and garment construction has led me to
+                develop a strong foundation in both fashion design and protective
+                clothing.
+                <br /> <br />
+              Throughout my career, I have contributed to numerous successful
+              projects, from designing complex patterns to optimizing garment
+              production processes. My work has consistently been recognized for
+              its accuracy, efficiency, and adherence to quality standards.
+              Currently, I am pursuing a PhD focused on sustainability and
+              upcycling in fashion, where I am exploring innovative ways to
+              integrate eco-friendly practices into the apparel industry. I am
+              eager to bring my skills and passion for sustainable fashion to a
+              forward-thinking company, where I can contribute to innovative
+              design solutions and continue to grow as a professional. Known for
+              my collaborative spirit and problem-solving abilities, I am
+              committed to creating apparel that not only meets functional needs
+              but also positively impacts the environment.
+            </span>
+            <br />
+            <button onclick="readMore()">Read more</button>
+            <button>Resume</button>
+          </p>
+          <img id="imgMainabout2"
+            class="imgMainabout"
+            src="assets/img/aboutImg.jpg"
+            alt="Main Photo banner"
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+  function readMore() {
+
+    var element = document.getElementById("secondAboutP");
+        element.classList.toggle("secondAboutP");
+        var elementImg = document.getElementById("imgMainabout2");
+        elementImg.classList.toggle("imgMainabout2");
+  }
+    </script>
+  </body>
+</html>
